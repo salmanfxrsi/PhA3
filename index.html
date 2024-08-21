@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,55 @@
 <body class="manrope-font">
 
     <!-- Header -->
-    <header></header>
+    <header class="bg-gradient-to-b from-[#d9d9d9] to-[#FFFFFF]">
+        
+        <!-- Navbar -->
+        <nav class="container mx-auto flex items-center justify-between py-8 lg:py-12 w-11/12 lg:w-full">
+            <div class="flex items-center gap-1">
+              <div class="bg-[#ABEF5F] rounded-full w-8 h-8"><i class="fa-solid fa-arrow-up rotate-45 text-xl pl-2"></i></div>
+              <p class="font-extrabold text-[2rem]">Rinterio</p>
+            </div>
+            <div class="hidden lg:flex">
+              <ul class="menu menu-horizontal space-x-12 text-[#737373] text-base">
+                <li class="hover:text-[#494949] hover:ease-in-out hover:duration-300 hover:font-extrabold"><a>Home</a></li>
+                <li class="hover:text-[#494949] hover:ease-in-out hover:duration-300 hover:font-extrabold"><a>Services</a></li>
+                <li class="hover:text-[#494949] hover:ease-in-out hover:duration-300 hover:font-extrabold"><a>Portfolio</a></li>
+                <li class="hover:text-[#494949] hover:ease-in-out hover:duration-300 hover:font-extrabold"><a>Blogs</a></li>
+                <li class="hover:text-[#494949] hover:ease-in-out hover:duration-300 hover:font-extrabold"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:block">
+              <div class="flex items-center space-x-4">
+              <div class="bg-white w-12 h-12 rounded-full cursor-pointer"><i class="fa-brands fa-searchengin text-2xl pl-3.5 pt-2"></i></div>
+              <div class="bg-white w-12 h-12 rounded-full cursor-pointer"><i class="fa-solid fa-cart-shopping text-2xl pl-2.5 pt-2"></i></div>
+              <div>
+                <button>
+                  <div class="flex items-center gap-2 bg-[#ABEF5F] py-3 px-5 rounded-[2rem]">
+                    <p class="font-extrabold text-xl">Book Consult</p>
+                    <div class="rotate-45 bg-[#1C1C1C] w-8 h-8 rounded-full pr-0.5 pt-1"><i class="fa-solid fa-arrow-up text-white"></i></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            </div>
+            <div class="dropdown lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <div class="bg-white h-12 w-12 rounded-full"><i class="fa-solid fa-bars text-xl pt-2 text-[#737373]"></i></div>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    </header>
 
     <!-- Main -->
     <main></main>
